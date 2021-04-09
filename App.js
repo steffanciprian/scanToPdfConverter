@@ -1,12 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, View, Button} from 'react-native';
-import MyButton from "./components/MyButton";
+import ImageTaker from "./components/imageTaker";
 
 export default function App() {
 
     return (
         <View style={styles.container}>
-            <MyButton
+            <ImageTaker
                 title="Scan document"/>
         </View>
     );
